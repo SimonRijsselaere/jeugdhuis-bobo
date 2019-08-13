@@ -1,0 +1,20 @@
+.img-fluid {
+
+}
+
+.pintje {
+  background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\pintje.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 250px;
+}
+
+.gemeente {
+  background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\gemeente.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 250px;
+}
