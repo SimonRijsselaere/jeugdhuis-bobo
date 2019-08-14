@@ -1,6 +1,6 @@
 
 .pintje {
-  background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\pintje.jpg");
+  background-image: url("..\..\assets\images\pintje.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .gemeente {
-  background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\gemeente.jpg");
+  background-image: url("..\..\assets\images\gemeente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
