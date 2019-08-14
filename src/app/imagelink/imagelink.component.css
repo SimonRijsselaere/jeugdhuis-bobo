@@ -8,6 +8,7 @@
   width: 100px;
   transition: transform .6s;
   position: relative;
+  z-index: 2;
 }
 
 .gemeente {
@@ -17,11 +18,12 @@
   height: 400px;
   width: 100px;
   transition: transform .6s;
+  z-index: 1;
 }
 
 .pintje:hover, .gemeente:hover {
   transform: scale(1.2);
-  z-index: 1;
+  z-index: 3;
 }
 
 .facebook {
