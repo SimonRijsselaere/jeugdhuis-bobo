@@ -1,20 +1,37 @@
-.img-fluid {
-
-}
 
 .pintje {
   background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\pintje.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
-  width: 250px;
+  height: 400px;
+  width: 100px;
+  transition: transform .6s;
+  position: relative;
 }
 
 .gemeente {
   background-image: url("D:\Becode-projects\angular\firstangular\my-dream-app\src\assets\images\gemeente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
-  width: 250px;
+  height: 400px;
+  width: 100px;
+  transition: transform .6s;
+}
+
+.pintje:hover, .gemeente:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.facebook {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.gemeentelink {
+  color: #000;
+  bottom: 0;
+  position : absolute;
+  left: 15%;
 }

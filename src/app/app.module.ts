@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
+import { TestComponent } from './imagelink/test.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { GooglemapsComponent } from './googlemaps/googlemaps.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
     TestComponent,
     ContactComponent,
     FooterComponent,
+    GooglemapsComponent,
   ],
   imports: [
     BrowserModule,
