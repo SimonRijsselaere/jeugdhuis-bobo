@@ -21,10 +21,7 @@
   z-index: 1;
 }
 
-.pintje:hover, .gemeente:hover {
-  transform: scale(1.2);
-  z-index: 3;
-}
+
 
 .facebook {
   color: #000;
@@ -36,4 +33,12 @@
   bottom: 0;
   position : absolute;
   left: 15%;
+}
+
+
+@media (min-width: 760px) {
+  .pintje:hover, .gemeente:hover {
+    transform: scale(1.2);
+    z-index: 3;
+  }
 }
