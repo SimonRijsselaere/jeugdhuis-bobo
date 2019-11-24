@@ -10,3 +10,82 @@ h2 {
     font-size: 1.5rem;
   }
 }
+
+
+
+.pintje {
+  background-image: url("..\..\assets\images\pintje.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  transition: transform .6s;
+  z-index: 2;
+
+}
+
+.gemeente {
+  background-image: url("..\..\assets\images\gemeente.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  transition: transform .6s;
+  z-index: 1;
+}
+
+
+
+.facebook {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.gemeentelink {
+  color: #000;
+  bottom: -198%;
+  position : absolute;
+  left: 15%;
+}
+
+
+@media (min-width: 760px) {
+  .pintje:hover {
+    transform: translateX(75px);
+    z-index: 3;
+  }
+}
+
+@media (min-width: 760px) {
+   .gemeente:hover {
+    transform: translateX(-75px);
+    z-index: 3;
+  }
+}
+
+.mapouter{
+  height:367px;
+  width:819px;
+}
+
+@media (max-width: 425px) {
+  #gmap_canvas{
+    height:187px;
+    width:250px;
+  }
+}
+@media (min-width: 1000px) {
+  #gmap_canvas{
+    height:367px;
+    width:819px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 999px ) {
+  #gmap_canvas{
+    height:367px;
+    width:350px;
+  }
+}
+
+
+
